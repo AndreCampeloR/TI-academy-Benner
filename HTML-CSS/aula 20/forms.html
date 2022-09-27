@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="formulario">
+    <form action="" method="get" name="cadastro"> 
+       <fieldset>
+          <legend>cadstro de usuario</legend>
+          <label for="nome">NOME</label>
+          <input type="text" class="txt" id="nome" name="nome" value="">
+          <label for="sobrenome">SOBRENOME</label>
+          <input type="text" class="txt" id="sobrenome" name="sobrenome" value="">
+          <label for="dataDeNasc">DATA DE NASCIMENTO</label>
+          <input type="text" class="txt" id="dataDeNasc" name="dataDeNasc" value="">
+          
+      </fieldset>
+      <fieldset>
+        <legend>SEXO</legend>
+        <label for="">MASCULINO</label>
+        <input type="radio" name="genero" value="M">
+        <label for="">FEMININO</label>
+        <input type="radio" name="genero" value="F">
+      </fieldset>
+      <fieldset>
+        <legend>PREFERÊNCIA DE ESTUDO</legend>
+        <label for="php">PHP</label>
+        <input type="checkbox" id="php" name="php" value="php">
+        <label for="js">JS</label>
+        <input type="checkbox" id="js" name="js" value="js">
+        <label for="html_css">HTML_CSS</label>
+        <input type="checkbox" id="html_css" name="html_css" value="html_css">
+      </fieldset>
+       <fieldset>
+      <select name="" id="">
+           <option value="">slecione</option> 
+           <option value="junior">JUNIOR</option>
+           <option value="pleno">PLENO</option>
+           <option value="senior">SENIOR</option>       
+      </select>
+      </fieldset>
+       <fieldset>
+        <label for="sobre">ESCREVA MAIS SOBRE VOCÊ</label>
+        <textarea name="" id="sobre" cols="30" rows="10"></textarea>
+       </fieldset>
+       <input type="submit" name="enviarDados" value="ENVIAR">
+    </form>
+    </section>
+</body>
+</html>

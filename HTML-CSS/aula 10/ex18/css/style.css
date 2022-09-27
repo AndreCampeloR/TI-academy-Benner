@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(110, 213, 253)
+} 
+
+div{
+    background-color: rgb(245, 245, 79);
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#div1{
+    right: 0%;
+    top: 0%;
+
+}
+#div2{
+    right: 0%;
+    bottom: 0%;
+    
+}
+#div3{
+    left: 0%;
+    bottom: 0%;
+}
+#div4{
+    left: 0%;
+    top:0%;
+}

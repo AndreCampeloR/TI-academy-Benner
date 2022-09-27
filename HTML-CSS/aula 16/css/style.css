@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 100px auto;
+
+}
+#mouse:hover{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100%;
+    margin: 100px auto;
+      
+}

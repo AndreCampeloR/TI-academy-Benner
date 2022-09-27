@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(94, 60, 219);
+    border-bottom: 5px solid black;
+
+
+}
+
+h1{
+    color: #fff;
+    padding: 20px 10px 10px 10px;
+    width: 50%;
+    height: auto;
+    margin: auto 30px auto 9%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    border: solid 1px black;
+    background-color: rgb(103, 58, 183);
+}
+
+#divDif{
+    background-color: rgba(103, 58, 183, 0.5);
+}

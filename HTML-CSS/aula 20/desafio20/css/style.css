@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+section{
+    margin: 10px;
+}
+fieldset{
+    padding: 2px;
+}

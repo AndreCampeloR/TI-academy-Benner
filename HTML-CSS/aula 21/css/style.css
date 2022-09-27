@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 5px;
+
+}
+li{
+    padding: 3px;
+}
+
+main{
+    width: 80%;
+    height: auto;
+    margin: 50px;
+}
