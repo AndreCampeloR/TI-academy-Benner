@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+main {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    padding: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid #FFF3E0;
+    margin: 2px;
+
+}
+
+ul > li:hover {
+    background-color: #FFE0B2;
+    font-weight: bold;
+}
+
+h1 {
+    padding: 20px;
+    background-color: #558B2F;
+    color: #fff;
+    border-bottom: 2px solid #1B5E20;
+}
+
+h2 {
+    margin-top: 5px;	
+    background-color: #EF6C00;
+    border-bottom: 2px solid #BF360C;
+    padding: 2px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+div {
+       flex-direction: column;
+    padding: 2px;
+    width: 100%;
+    height: auto;
+
+}
+.flex-row-end {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.flex-row-end > span{
+    width: 130px;
+    height: auto;
+    justify-content: flex-end;
+    font-size: 28px;
+    background-color: #558B2F ;
+    color: #fff;
+    padding: 2px;
+    font-weight: bold;
+
+}
+
+.flex-row-end > #mostraTotalCompra {
+     font-size: 28px;
+     font-weight: bold;
+} 
+
+.itemCesta{
+   display: flex;
+   justify-content: space-between;
+}
+
+.material-icons{
+   z-index: 100;
+}
