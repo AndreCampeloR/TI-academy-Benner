@@ -5,24 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Desafio-HTML</title>
 </head>
 <body class="flex center">
     <main class="flex center"> 
         <div id="formulario" class="center flex">
-        <form action="get"> 
-            <label for="nome" >Usuário</label>
-            <br>
-             <input id="usu" class="flex" type="text" name="nome" value="" required placeholder="usuário" >
-             <!-- <br> -->
-             <label id="lbsenha" for="senha" >Senha</label>
-             <br>
-             <input id="sen" class="flex " type="password" name="senha" value="" required placeholder="senha" >
-             <a href="panel.html"> <div id="div-btn" class="center flex " >
-             <input id="btn" type="button" name="botao" value="ENTRAR"  >
-               </div> </a>
-        </form> 
-    </div>
+            <form> 
+                <label for="nome" >Usuário</label>
+                <input id="usuario" class="flex" type="text" name="nome" value="" required placeholder="usuário" >
+                <label id="lbsenha" for="senha">Senha</label>
+                <input id="senha" class="flex " type="password" name="senha" value="" required placeholder="senha" >
+                <div id="div-btn" class="center flex " >
+                    <input id="btn" type="button" name="botao" value="ENTRAR" >
+                </div> 
+            </form> 
+        </div>
     </main>
+    <script type="module" src="../desafio/js/script.js"></script>
 </body>
 </html>
