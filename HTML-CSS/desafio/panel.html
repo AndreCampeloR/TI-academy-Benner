@@ -63,16 +63,16 @@
     <div id="TelaPedidos" class="flex center telas desative" >     <!-- ----- Divs da tela de Pedidos -->
       <form action="" id="formTelaPedidos" class="flex coluna">
         <div id="topoTelaPedidos" class="flex linha"> <h3>Pedidos</h3><button class="btnFechar">x</button></div> <!-- ----- Divs do topo da tela -->
-        <label for="codigoCliente">Codigo do Cliente</label>
-        <input type="text" class="inputTelas" name="codigoCliente" >
-        <label for="Cliente">Cliente</label>
-        <input type="text" class="inputTelas desativeCursor" name="Cliente" >
+        <label for="codigoClientePedido">Codigo do Cliente</label>
+        <input type="text" class="inputTelas" id="codigoClientePedido" >
+        <label for="clientePedidos">Cliente</label>
+        <input type="text" class="inputTelas desativeCursor" id="clientePedidos" >
         <div id="divLocalizar">
           <h3 class="tituloProduto">Localizar Produto</h3>
           <div class="divInputProdutos linha">
-            <input type="text" class="inputCodigoProdutos"><input type="text" class="inputProdutos desativeCursor"  >
-            <input type="text" class="inputPrecoProdutos desativeCursor" ><input type="text" class="inputQuantidadeProdutos">
-            <button class="btnPedido">Lançar Pedido</button>
+            <input type="text" id="inputCodigoProdutos"><input type="text" id="inputProdutos" class="desativeCursor"  >
+            <input type="text" id="inputPrecoProdutos" class="desativeCursor" ><input type="text" id="inputQuantidadeProdutos">
+            <button type="button" id="lancarPedido" class="btnPedido">Lançar Pedido</button>
           </div>
         </div>
         <div>

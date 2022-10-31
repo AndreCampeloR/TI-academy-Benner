@@ -176,19 +176,19 @@ p{
     justify-content: space-between;
     display: flex;
 }
-.inputCodigoProdutos{
+#inputCodigoProdutos{
     width:  5%;
     height: 30px;
 }
-.inputProdutos{
+#inputProdutos{
     width: 25%;
     height: 30px;
 }
-.inputPrecoProdutos{
+#inputPrecoProdutos{
     width: 15%;
     height: 30px;
 }
-.inputQuantidadeProdutos{
+#inputQuantidadeProdutos{
     width: 15%;
     height: 30px;
 }

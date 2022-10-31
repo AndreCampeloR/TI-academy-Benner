@@ -38,6 +38,8 @@ for(let i = 0; i < menu.length; i++) {
         var salvarCliente = document.querySelector('#salvarCliente');
         var novoProduto = document.querySelector('#novoProduto');
         var salvarProduto = document.querySelector('#salvarProduto');
+        var clientePedidos = document.querySelector('#clientePedidos');
+
         var valorCodigo 
         var valorProduto     
         function dadosCliente(codigo){
@@ -60,10 +62,10 @@ for(let i = 0; i < menu.length; i++) {
                         valorCodigo--
                         dadosCliente(valorCodigo);
                         
-                                                } 
-                else{
-                    alert("limite do limite limitado")
-                }
+                    } 
+                    else{
+                        alert("limite do limite limitado")
+                    }
         })
         function dadosProduto(codigo){
             form[1][1].value = produtos[codigo]["codProduto"];
@@ -72,27 +74,27 @@ for(let i = 0; i < menu.length; i++) {
             form[1][4].value = produtos[codigo]["qtdEstoqueProd"]; 
             valorProduto = codigo
         } 
-            setaProximoProduto.addEventListener('click', function(){
-                if(valorProduto < produtos.length -1){
-                    valorProduto++
-                    dadosProduto(valorProduto);
-                    
-                } 
-                else{
-                    alert("limite do limite limitado")
-                } })
-        setaAnteriorProduto.addEventListener('click', function(){
-                    if(valorProduto > 0){
-                        valorProduto--
+        setaProximoProduto.addEventListener('click', function(){
+            if(valorProduto < produtos.length -1){
+                valorProduto++
+                dadosProduto(valorProduto);
+                
+            } 
+            else{
+                alert("limite do limite limitado")
+            } })
+            setaAnteriorProduto.addEventListener('click', function(){
+                if(valorProduto > 0){
+                    valorProduto--
                         dadosProduto(valorProduto);
                         
                     } 
                     else{
-                    alert("limite do limite limitado")
+                        alert("limite do limite limitado")
                     }
-        }); 
-        var data = new Date();
-        var dia = data.getUTCDate();
+                }); 
+                var data = new Date();
+                var dia = data.getUTCDate();
         var mes = data.getUTCMonth() +1;
         var ano = data.getUTCFullYear();
         novoCliente.addEventListener('click', function(){
@@ -100,20 +102,20 @@ for(let i = 0; i < menu.length; i++) {
             form[0][2].value = inputNomeCliente.classList.remove('desativeCursor')
             document.getElementById('inputNomeCliente').value = '' 
             form[0][3].value = `${dia}/${mes}/${ano}`
-
+            
         });
         salvarCliente.addEventListener('click', function(){
            let arrayClientes = {}
            arrayClientes.codCliente = form[0][1].value
            arrayClientes.nomeCliente = form[0][2].value
            arrayClientes.dataCadCli = form[0][3].value
-
+           
            if(arrayClientes.codCliente <= clientes.length)
            {
-                alert("crie um novo cliente para poder salvar")
-                return;
-           }
-           clientes.push(arrayClientes)
+               alert("crie um novo cliente para poder salvar")
+               return;
+            }
+            clientes.push(arrayClientes)
            dadosCliente(0)
         })
         novoProduto.addEventListener('click', function(){
@@ -131,14 +133,58 @@ for(let i = 0; i < menu.length; i++) {
             arrayProdutos.descProduto = form[1][2].value
             arrayProdutos.precoProduto = form[1][3].value
             arrayProdutos.qtdEstoqueProd = form[1][4].value
- 
+            
             if(arrayProdutos.codProduto <= produtos.length)
             {
-                 alert("crie um novo produto para poder salvar")
-                 return;
+                alert("crie um novo produto para poder salvar")
+                return;
             }
  
             produtos.push(arrayProdutos)
             dadosProduto(0)
         });
-            
+        
+        var codigoClientePedido = document.querySelector('#codigoClientePedido');
+        var lancarPedido = document.querySelector('#lancarPedido');
+        var inputCodigoProdutos = document.querySelector('#inputCodigoProdutos');
+        var inputProdutos = document.querySelector('#inputProdutos');
+        var inputPrecoProdutos = document.querySelector('#inputPrecoProdutos');
+        var inputQuantidadeProdutos = document.querySelector('#inputQuantidadeProdutos');
+        codigoClientePedido.addEventListener('blur', function(){
+            for(let indicePedido of clientes){ 
+                if(codigoClientePedido.value == indicePedido["codCliente"]){
+                    clientePedidos.value = clientes[indicePedido["codCliente"] -1]["nomeCliente"];
+                    break
+                } else{
+                    clientePedidos.value = "usuario não encontrado"
+                }
+            } 
+        });
+        inputCodigoProdutos.addEventListener('blur', function(){
+            for(let indicePedido of produtos){ 
+                if(inputCodigoProdutos.value == indicePedido["codProduto"]){
+                    inputProdutos.value = produtos[indicePedido["codProduto"] -1]["descProduto"];
+                    inputPrecoProdutos.value = produtos[indicePedido["codProduto"] -1]["precoProduto"];
+                    break
+                } else{
+                    inputProdutos.value = "produto não encontrado"
+                    inputPrecoProdutos.value = " "
+                }
+            } 
+        });
+        lancarPedido.addEventListener('click', ()=>{
+           for(let indiceQuantidade of produtos){
+            if(inputCodigoProdutos.value == indiceQuantidade["codProduto"]){
+                if(inputQuantidadeProdutos.value <= produtos[indiceQuantidade["codProduto"] -1]["qtdEstoqueProd"]){
+                    console.log("vlw por comprar")
+                } else {
+                   console.log("quantidade indisponivel")
+                }
+           } 
+        }})
+        
+        
+        // if(codigoClientePedido.value == 1){   
+        //     clientePedidos.value = j
+        // } else{
+        // }
