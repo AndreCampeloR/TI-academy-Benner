@@ -73,7 +73,6 @@ for(let i = 0; i < menu.length; i++) {
             valorProduto = codigo
         } 
             setaProximoProduto.addEventListener('click', function(){
-                console.log('tmj')
                 if(valorProduto < produtos.length -1){
                     valorProduto++
                     dadosProduto(valorProduto);
@@ -101,8 +100,22 @@ for(let i = 0; i < menu.length; i++) {
             form[0][2].value = inputNomeCliente.classList.remove('desativeCursor')
             document.getElementById('inputNomeCliente').value = '' 
             form[0][3].value = `${dia}/${mes}/${ano}`
-            console.log(dia,mes,ano,)
+
         });
+        salvarCliente.addEventListener('click', function(){
+           let arrayClientes = {}
+           arrayClientes.codCliente = form[0][1].value
+           arrayClientes.nomeCliente = form[0][2].value
+           arrayClientes.dataCadCli = form[0][3].value
+
+           if(arrayClientes.codCliente <= clientes.length)
+           {
+                alert("crie um novo cliente para poder salvar")
+                return;
+           }
+           clientes.push(arrayClientes)
+           dadosCliente(0)
+        })
         novoProduto.addEventListener('click', function(){
             form[1][1].value = produtos.length +1
             form[1][2].value = descricaoProdutos.classList.remove('desativeCursor')
@@ -111,29 +124,21 @@ for(let i = 0; i < menu.length; i++) {
             document.getElementById('precoProdutos').value = '' 
             form[1][4].value = quantidadeProdutos.classList.remove('desativeCursor')
             document.getElementById('quantidadeProdutos').value = '' 
-            
-        })
-        
-        // TextDecoderStream
-        
-        
-        
-        
-        
-        //    for(let iNovo = clientes.length; iNovo == clientes.length -1; iNovo++){
-        //     console.log(iNovo);
-        //     console.log(clientes.length)
-        //    let codigo = iNovo
-        //     clientes[codigo]["codCliente"] 
-        //     form[0][iNovo].value = clientes[codigo][""];
-        
-        
-        
-        // x.addEventListener('click', function(){
-            //     cadastroClientes.classList.add('desative');
-            //     cadastroProdutos.classList.add('desative');
-            //     cadastroPedidos.classList.add('desative');
-            // }) 
-        
-            
+        });
+        salvarProduto.addEventListener('click', function(){
+            let arrayProdutos = {}
+            arrayProdutos.codProduto = form[1][1].value
+            arrayProdutos.descProduto = form[1][2].value
+            arrayProdutos.precoProduto = form[1][3].value
+            arrayProdutos.qtdEstoqueProd = form[1][4].value
+ 
+            if(arrayProdutos.codProduto <= produtos.length)
+            {
+                 alert("crie um novo produto para poder salvar")
+                 return;
+            }
+ 
+            produtos.push(arrayProdutos)
+            dadosProduto(0)
+        });
             

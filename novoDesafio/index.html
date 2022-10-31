@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .flex{
+            display: flex;
+        }
+        .center{
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            width: auto;
+            height: auto;
+        }
+      div{
+        width: 50%;
+        height: 50%;
+        border: solid 3px violet;
+        padding: 10px;
+      }
+      button{
+        margin-right: 20px;
+      }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <main class="flex center">
+      <div class="flex center">
+        <button id="1" class="btn">Botão 1</button>
+        <button id="2" class="btn">Botão 2</button>
+        <button id="3" class="btn">Botão 3</button>
+      </div>
+    </main>
+    <script>
+       for(let item of document.querySelectorAll('.btn')){
+        item.addEventListener('click', ()=>{
+          alert(`voce clicou no botão ${item.id}`)
+        })
+       }
+    </script>
+</body>
+</html>
