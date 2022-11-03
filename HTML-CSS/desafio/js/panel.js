@@ -172,19 +172,35 @@ for(let i = 0; i < menu.length; i++) {
                 }
             } 
         });
+        
+        var ul = document.createElement("ul");
+        var itemLista = document.querySelector('#itemLista');
+        var descricaoLista = document.querySelector('#descricaoLista');
+        var precoLista = document.querySelector('#precoLista');
+        var quantidadeLista = document.querySelector('#quantidadeLista');
+
         lancarPedido.addEventListener('click', ()=>{
            for(let indiceQuantidade of produtos){
             if(inputCodigoProdutos.value == indiceQuantidade["codProduto"]){
                 if(inputQuantidadeProdutos.value <= produtos[indiceQuantidade["codProduto"] -1]["qtdEstoqueProd"]){
-                    console.log("vlw por comprar")
+                      itemLista.appendChild(ul);
+                      ul.textContent = inputCodigoProdutos.value;
+
+                      descricaoLista.appendChild(ul);
+                      ul.textContent = inputProdutos.value;
+                      
+                    //   precoLista.appendChild(ul);
+                    //   ul.textContent = precoProdutos.value;
+
+                    //   quantidadeLista.appendChild(ul);
+                    //   ul.textContent = quantidadeProdutos.value
+                      
+                      
                 } else {
-                   console.log("quantidade indisponivel")
+                   alert("quantidade indisponivel")
                 }
            } 
         }})
         
         
-        // if(codigoClientePedido.value == 1){   
-        //     clientePedidos.value = j
-        // } else{
-        // }
+     
