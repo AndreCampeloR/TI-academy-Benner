@@ -192,13 +192,33 @@ p{
     width: 15%;
     height: 30px;
 }
+#divTabela{
+    width: 100%;
+    margin-right: 20px;
+}
+#tabela{
+    width: 100%;
+}
+#trTotal{
+    width: auto;
+    margin: 10px;
+    border: solid black 2px;
+    color: red;
+    background-color: lightgray;
+}
+#divTotal{
+    justify-content: right;
+    width: auto;
+}
+.linhaTabela{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 45% 15% 15% 15%;
+    text-align: center;
+}
 .btnPedido{
     width: 35%;
     height: 33px;
-}
-.divItens{
-    justify-content: space-around;
-    margin-right: 20px;
 }
 /*=========== JS TELAS =========*/
 .active{

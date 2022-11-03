@@ -172,35 +172,57 @@ for(let i = 0; i < menu.length; i++) {
                 }
             } 
         });
-        
-        var ul = document.createElement("ul");
-        var itemLista = document.querySelector('#itemLista');
-        var descricaoLista = document.querySelector('#descricaoLista');
-        var precoLista = document.querySelector('#precoLista');
-        var quantidadeLista = document.querySelector('#quantidadeLista');
-
         lancarPedido.addEventListener('click', ()=>{
-           for(let indiceQuantidade of produtos){
+            for(let indiceQuantidade of produtos){
             if(inputCodigoProdutos.value == indiceQuantidade["codProduto"]){
                 if(inputQuantidadeProdutos.value <= produtos[indiceQuantidade["codProduto"] -1]["qtdEstoqueProd"]){
-                      itemLista.appendChild(ul);
-                      ul.textContent = inputCodigoProdutos.value;
-
-                      descricaoLista.appendChild(ul);
-                      ul.textContent = inputProdutos.value;
-                      
-                    //   precoLista.appendChild(ul);
-                    //   ul.textContent = precoProdutos.value;
-
-                    //   quantidadeLista.appendChild(ul);
-                    //   ul.textContent = quantidadeProdutos.value
-                      
-                      
+                    
+                    listaProdutos()
+                  
                 } else {
                    alert("quantidade indisponivel")
                 }
            } 
+           
         }})
-        
-        
-     
+        function listaProdutos()
+        { 
+                let tbody = document.getElementById('tbody');
+                for(let i of tbody.rows){
+                    if(inputCodigoProdutos.value == i.cells[0].textContent){
+                          alert("esse produto já está na lista");
+                          return;
+                    } 
+                }
+                let tr = tbody.insertRow();
+                tr.classList.add('linhaTabela')
+                
+                let td_codProduto = tr.insertCell();
+                let td_descProduto = tr.insertCell();
+                let td_precoProduto = tr.insertCell();
+                let td_qtdEstoqueProd = tr.insertCell();
+                let td_subTotal = tr.insertCell();
+                let Total = document.getElementById('Total');
+                
+                    td_codProduto.innerText = inputCodigoProdutos.value
+                    td_descProduto.innerText = inputProdutos.value
+                    td_precoProduto.innerText = inputPrecoProdutos.value
+                    td_qtdEstoqueProd.innerText = inputQuantidadeProdutos.value;
+                    td_subTotal.innerText = (Number(inputQuantidadeProdutos.value)*Number(inputPrecoProdutos.value)).toFixed(2);
+                    
+                    ZeraInput();
+                    
+                    Total.innerHTML = (Number(Total.innerHTML)+Number(td_subTotal.innerText)).toFixed(2);
+                    
+                }
+                
+            
+ function ZeraInput(){
+    inputCodigoProdutos.value = '';
+    inputPrecoProdutos.value = '';
+    inputProdutos.value = '';
+    inputQuantidadeProdutos.value = '';
+                     }
+            
+            
+            

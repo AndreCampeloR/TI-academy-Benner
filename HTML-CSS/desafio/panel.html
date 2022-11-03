@@ -77,15 +77,25 @@
         </div>
         <div>
           <h3 class="tituloProduto">Itens do Pedido</h3>
-          <div class="linha flex divItens">
-            <h4 id="itemLista" >Item</h4>
-            <h4 id="descricaoLista" >Descrição</h4>
-            <h4 id="precoLista" >Preço</h4>
-            <h4 id="quantidadeLista" >Quantidade</h4>
-            <h4 id="subTotalLista" >Sub Total</h4>
+          <div id="divTabela">
+            <table id="tabela">
+            <tr class="linhaTabela">
+                <th id="itemLista" >Item</th>
+                <th id="descricaoLista" >Descrição</th>
+                <th id="precoLista" >Preço</th>
+                <th id="quantidadeLista" >Quantidade</th>
+                <th id="subTotalLista" >Sub Total</th>
+              </tr>
+              <tbody id="tbody">
+              </tbody>
+              <tbody id="divTotal" class="flex">
+                <tr class="flex center" id="trTotal">
+                  <td>Total(R$): </td>
+                  <td id="Total" ></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div id="Total"></div>
-        </div>
       </form>
     </div>   <!-- ----- Final Div da tela de Pedidos -->
   </main>
