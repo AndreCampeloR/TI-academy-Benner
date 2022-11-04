@@ -2,7 +2,6 @@ import { produtos } from './produtos.js';
 import { clientes } from './clientes.js';
 
 var menu = document.querySelectorAll(".menu");
-var x = document.querySelectorAll(".btnFechar");
 var cadastroClientes = document.querySelector('#TelaCliente');
 var cadastroProdutos = document.querySelector('#TelaProdutos');
 var cadastroPedidos = document.querySelector('#TelaPedidos');
@@ -28,8 +27,17 @@ for(let i = 0; i < menu.length; i++) {
             
         } 
     })
-        };
-        
+};
+
+     var fechar = document.querySelectorAll(".btnFechar");
+       for(let elemento of fechar){
+        elemento.addEventListener('click', function(){
+            cadastroClientes.classList.add('desative');
+            cadastroProdutos.classList.add('desative');
+            cadastroPedidos.classList.add('desative');
+        })
+       }
+
         var setaAnteriorCliente = document.querySelector('#setaAnteriorCliente');
         var setaProximoCliente = document.querySelector('#setaProximoCliente');
         var setaAnteriorProduto = document.querySelector('#setaAnteriorProduto');
@@ -55,7 +63,7 @@ for(let i = 0; i < menu.length; i++) {
                     
                 } 
                 else{
-                    alert("limite do limite limitado")
+                    alert("Fim do Registro de Clientes")
                 } })
                 setaAnteriorCliente.addEventListener('click', function(){
                     if(valorCodigo > 0){
@@ -64,7 +72,7 @@ for(let i = 0; i < menu.length; i++) {
                         
                     } 
                     else{
-                        alert("limite do limite limitado")
+                        alert("Fim do Registro de Clientes")
                     }
         })
         function dadosProduto(codigo){
@@ -81,7 +89,7 @@ for(let i = 0; i < menu.length; i++) {
                 
             } 
             else{
-                alert("limite do limite limitado")
+                alert("Fim do Registro de Clientes")
             } })
             setaAnteriorProduto.addEventListener('click', function(){
                 if(valorProduto > 0){
@@ -90,7 +98,7 @@ for(let i = 0; i < menu.length; i++) {
                         
                     } 
                     else{
-                        alert("limite do limite limitado")
+                        alert("Fim do Registro de Clientes")
                     }
                 }); 
                 var data = new Date();
