@@ -1,0 +1,15 @@
+C:\xampp\htdocs\C#\aula02\bin\Debug\net6.0\aula02.exe
+C:\xampp\htdocs\C#\aula02\bin\Debug\net6.0\aula02.deps.json
+C:\xampp\htdocs\C#\aula02\bin\Debug\net6.0\aula02.runtimeconfig.json
+C:\xampp\htdocs\C#\aula02\bin\Debug\net6.0\aula02.dll
+C:\xampp\htdocs\C#\aula02\bin\Debug\net6.0\aula02.pdb
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\aula02.csproj.AssemblyReference.cache
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\aula02.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\aula02.AssemblyInfoInputs.cache
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\aula02.AssemblyInfo.cs
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\aula02.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\aula02.dll
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\refint\aula02.dll
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\aula02.pdb
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\aula02.genruntimeconfig.cache
+C:\xampp\htdocs\C#\aula02\obj\Debug\net6.0\ref\aula02.dll
