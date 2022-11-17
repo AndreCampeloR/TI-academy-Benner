@@ -1,0 +1,15 @@
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\bin\Debug\net6.0\aula04.exe
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\bin\Debug\net6.0\aula04.deps.json
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\bin\Debug\net6.0\aula04.runtimeconfig.json
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\bin\Debug\net6.0\aula04.dll
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\bin\Debug\net6.0\aula04.pdb
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\aula04.csproj.AssemblyReference.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\aula04.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\aula04.AssemblyInfoInputs.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\aula04.AssemblyInfo.cs
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\aula04.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\aula04.dll
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\refint\aula04.dll
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\aula04.pdb
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\aula04.genruntimeconfig.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Lógica\aula04\obj\Debug\net6.0\ref\aula04.dll

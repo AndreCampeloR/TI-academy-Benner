@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\aula03\\aula03.csproj": {}
+    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\aula03\\aula03.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\aula03\\aula03.csproj": {
+    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\aula03\\aula03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\aula03\\aula03.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\aula03\\aula03.csproj",
         "projectName": "aula03",
-        "projectPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\aula03\\aula03.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\aula03\\aula03.csproj",
         "packagesPath": "C:\\Users\\andre.campelo\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\aula03\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\aula03\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre.campelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
