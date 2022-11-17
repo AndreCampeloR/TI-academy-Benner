@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\C#\\desafioC#\\desafioC#.csproj": {}
+    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\desafioC#\\desafioC#.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\C#\\desafioC#\\desafioC#.csproj": {
+    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\desafioC#\\desafioC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\C#\\desafioC#\\desafioC#.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\desafioC#\\desafioC#.csproj",
         "projectName": "desafioC#",
-        "projectPath": "C:\\xampp\\htdocs\\C#\\desafioC#\\desafioC#.csproj",
+        "projectPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\desafioC#\\desafioC#.csproj",
         "packagesPath": "C:\\Users\\andre.campelo\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\C#\\desafioC#\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Lógica\\desafioC#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre.campelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
