@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Lvg5utta6SyKP5c/Q/Mo1eAQHJ4vx0zs7eCXHV5r6crtAX+aruPU9/92IqFQatRoLzgcrakJl9yBSQDaQW7Hkg==",
+  "dgSpecHash": "nEYiyuOBij4QymYAZZ10kHjDrqoQ5u2A/92jv+buSH9NcrL81wYWNHGERtNkSCXiZczIlTis6oK3UOvlvhCgHA==",
   "success": true,
-  "projectFilePath": "C:\\xampp\\htdocs\\c#\\aula01\\aula01.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\DEV deco\\TI-academy-Benner\\C#\\Lógica\\aula01\\aula01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcos\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Marcos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Marcos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Marcos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
