@@ -1,0 +1,15 @@
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\aula02.csproj.AssemblyReference.cache
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\aula02.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\aula02.AssemblyInfoInputs.cache
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\aula02.AssemblyInfo.cs
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\aula02.csproj.CoreCompileInputs.cache
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\bin\Debug\net7.0\aula02.exe
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\bin\Debug\net7.0\aula02.deps.json
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\bin\Debug\net7.0\aula02.runtimeconfig.json
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\bin\Debug\net7.0\aula02.dll
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\bin\Debug\net7.0\aula02.pdb
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\aula02.dll
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\refint\aula02.dll
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\aula02.pdb
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\aula02.genruntimeconfig.cache
+D:\DEV deco\TI-academy-Benner\c#\Poo\aula02\obj\Debug\net7.0\ref\aula02.dll

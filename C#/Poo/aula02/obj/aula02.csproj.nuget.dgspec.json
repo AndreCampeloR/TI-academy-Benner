@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula01\\aula01.csproj": {}
+    "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula02\\aula02.csproj": {}
   },
   "projects": {
-    "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula01\\aula01.csproj": {
+    "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula02\\aula02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula01\\aula01.csproj",
-        "projectName": "aula01",
-        "projectPath": "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula01\\aula01.csproj",
+        "projectUniqueName": "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula02\\aula02.csproj",
+        "projectName": "aula02",
+        "projectPath": "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula02\\aula02.csproj",
         "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
-        "outputPath": "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula01\\obj\\",
+        "outputPath": "D:\\DEV deco\\TI-academy-Benner\\c#\\Poo\\aula02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcos\\AppData\\Roaming\\NuGet\\NuGet.Config"
