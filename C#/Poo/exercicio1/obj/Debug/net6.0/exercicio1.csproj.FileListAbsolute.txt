@@ -1,0 +1,15 @@
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\exercicio1.csproj.AssemblyReference.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\exercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\exercicio1.AssemblyInfoInputs.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\exercicio1.AssemblyInfo.cs
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\exercicio1.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\bin\Debug\net6.0\exercicio1.exe
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\bin\Debug\net6.0\exercicio1.deps.json
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\bin\Debug\net6.0\exercicio1.runtimeconfig.json
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\bin\Debug\net6.0\exercicio1.dll
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\bin\Debug\net6.0\exercicio1.pdb
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\exercicio1.dll
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\refint\exercicio1.dll
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\exercicio1.pdb
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\exercicio1.genruntimeconfig.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\c#\poo\exercicio1\obj\Debug\net6.0\ref\exercicio1.dll
