@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\exercicio1\\exercicio1.csproj": {}
+    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\aula05\\aula05.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\exercicio1\\exercicio1.csproj": {
+    "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\aula05\\aula05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\exercicio1\\exercicio1.csproj",
-        "projectName": "exercicio1",
-        "projectPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\exercicio1\\exercicio1.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\aula05\\aula05.csproj",
+        "projectName": "aula05",
+        "projectPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\aula05\\aula05.csproj",
         "packagesPath": "C:\\Users\\andre.campelo\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\exercicio1\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\GitHub\\TI-academy-Benner\\C#\\Poo\\aula05\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre.campelo\\AppData\\Roaming\\NuGet\\NuGet.Config",

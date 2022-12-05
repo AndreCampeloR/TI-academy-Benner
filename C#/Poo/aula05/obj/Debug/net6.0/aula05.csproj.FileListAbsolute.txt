@@ -1,0 +1,5 @@
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Poo\aula05\obj\Debug\net6.0\aula05.csproj.AssemblyReference.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Poo\aula05\obj\Debug\net6.0\aula05.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Poo\aula05\obj\Debug\net6.0\aula05.AssemblyInfoInputs.cache
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Poo\aula05\obj\Debug\net6.0\aula05.AssemblyInfo.cs
+C:\xampp\htdocs\GitHub\TI-academy-Benner\C#\Poo\aula05\obj\Debug\net6.0\aula05.csproj.CoreCompileInputs.cache
