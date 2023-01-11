@@ -22,9 +22,9 @@ CREATE TABLE producao.ficha(
 	cd_ficha                INT           PRIMARY KEY       IDENTITY(1,1)
 ,	dt_inspecao             DATE          NOT NULL
 ,	cd_matricula_inspetor   INT           NOT NULL	  
-,	hr_inicio 				   TIME 
-,  hr_fim					   TIME  
-,  FOREIGN KEY (cd_matricula_inspetor)                     REFERENCES producao.inspetor(cd_matricula_inspetor)
+,	hr_inicio 			      TIME 
+,       hr_fim				      TIME  
+,       FOREIGN KEY (cd_matricula_inspetor)                     REFERENCES producao.inspetor(cd_matricula_inspetor)
 );
 
 CREATE TABLE producao.produto(
@@ -33,7 +33,7 @@ CREATE TABLE producao.produto(
 ,	ano_producao            INT           NOT NULL
 ,	cd_tipo_produto         INT           NOT NULL	    
 ,	PRIMARY KEY	(cd_produto, cd_linha_producao, ano_producao)    
-,	FOREIGN KEY (cd_tipo_produto) 	                       REFERENCES producao.tipo_produto(cd_tipo_produto)
+,	FOREIGN KEY (cd_tipo_produto) 	                        REFERENCES producao.tipo_produto(cd_tipo_produto)
 );
 
 
@@ -45,9 +45,9 @@ CREATE TABLE producao.inspecao(
 ,	ano_produto             INT           NOT NULL
 ,	cd_avaliacao            VARCHAR(2)    NOT NULL
 ,	hr_inspecao             TIME
-,  FOREIGN KEY (cd_ficha) 				                       REFERENCES producao.ficha(cd_ficha)
+,       FOREIGN KEY (cd_ficha) 				        REFERENCES producao.ficha(cd_ficha)
 ,	FOREIGN KEY (cd_produto, linha_produto, ano_produto)    REFERENCES producao.produto(cd_produto, cd_linha_producao, ano_producao)
-,	FOREIGN KEY (cd_avaliacao) 			                    REFERENCES producao.avaliacao(cd_avaliacao)
+,	FOREIGN KEY (cd_avaliacao) 			        REFERENCES producao.avaliacao(cd_avaliacao)
 );
 
 
