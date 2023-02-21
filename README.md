@@ -21,6 +21,8 @@
 ## 📝 Sobre
 Nesse repositório estarei upando o conteúdo visto durando o projeto trainee da Benner
 
+## Projetos
+
 ## 🚀 Tecnologias utilizadas 
 - HTML
 - CSS
